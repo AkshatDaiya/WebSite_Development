@@ -1,0 +1,13 @@
+<section class="services" id="Services">
+    <h1>Our Services</h1>
+    <div class="flex">
+        <%serviceRecord.forEach((result)=>{%>
+            <div class="block">
+                <img src="/upload/<%=result.img%>" alt="">
+                <h3><%=result.title%></h3>
+                <p><%=result.details%></p>
+            </div>
+            <%})%>
+    </div>
+
+</section>

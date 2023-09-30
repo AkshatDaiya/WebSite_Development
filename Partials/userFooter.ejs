@@ -1,0 +1,31 @@
+<footer class="footer" id="Contact">
+    <div class="hd">
+        <h1>Contact</h1>
+        <h1>Social</h1>
+    </div>
+    <hr>
+    <div class="hd1">
+        <div class="num">
+            <p><%=addressRecord.mobile%></p>
+            <p><%=addressRecord.email%></p>
+        </div>
+        <div class="social">
+            <a href="<%=addressRecord.insta%>"><i class="bi bi-instagram"></i></a>
+            <a href="<%=addressRecord.facebook%>"><i class="bi bi-facebook"></i></a>
+        </div>
+    </div>
+
+    <div class="add">
+        <p><%=addressRecord.add%></p>
+    </div>
+
+   <div class="emailForm">
+    <form action="" method="post" class="container mt-5  mb-5">
+        <label for="" class="text-center w-100"><h1>QUERY FORM</h1></label>
+        <input type="email" name="queryFormEmail" class="form-control mb-2" placeholder="Enter your Email">
+        <textarea name="queryFormText" class="form-control mb-2" placeholder="Enter your Query"></textarea>
+
+        <button class="btn btn-warning form-control">Submit</button>
+    </form>
+   </div>
+</footer>

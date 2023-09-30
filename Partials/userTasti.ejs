@@ -1,0 +1,19 @@
+<section class="Tasti">
+    <h1>TESTIMONIAL</h1>
+    <div class="forFlex">
+        <div class="flex">
+            <%testiRecord.forEach((result)=>{%>
+                <div class="block">
+                    <img src="upload/<%=result.img%>" alt="img">
+
+                    <p><%=result.details%></p>
+
+                    <h5><small>by</small>
+                        <%=result.name%>
+                    </h5>
+                </div>
+                <%})%>
+
+        </div>
+
+</section>
