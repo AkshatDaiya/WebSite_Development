@@ -3,3 +3,5 @@
  After running this project you will see a login page, for that you have to Sign up 
  There is also a DASHBOARD Page only for the admin to change information => (http://localhost:5000/admin/)
  In this, you will see a login page: UserName = AkshatDaiya || Password = Admin
+
+# BEFORE THAT YOU HAVE TO CONNECT IT TO MONGODB.
